@@ -1,0 +1,28 @@
+# Build outputs
+dist/
+
+# Dependencies
+node_modules/
+
+# Lock files
+bun.lock
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Environment
+.env
+.env.*
+
+# Generated
+*.tsbuildinfo
+
+# Database
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Misc
+.vscode/
+.idea/
